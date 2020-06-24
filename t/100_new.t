@@ -13,8 +13,5 @@ my $obj = new_ok('Azure::Blob::SAS',[
 );
 
 
-print "-\nSigned URL:\n";
-print $obj->signed_url;
-print "\n-\n-\n";
 
 done_testing;

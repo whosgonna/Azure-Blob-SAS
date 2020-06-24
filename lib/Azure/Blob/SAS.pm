@@ -259,10 +259,6 @@ sub signed_url {
     my $token    = $self->token;
     return $self->_uri->as_string;
 
-    my $url      = $self->url;
-    my $token    = $self->manual_token;
-    my $full_url = "$url?$token";
-    return $full_url;
 }
 
 
